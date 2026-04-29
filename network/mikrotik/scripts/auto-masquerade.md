@@ -1,4 +1,4 @@
-```rsc
+```
 :if ($bound=1) do={
 :if [:tobool ([/ip firewall/nat/ find comment="masquerade via ISP-1"])] do={
     /ip firewall nat set [find comment="masquerade via ISP-1"] action=masquerade chain=srcnat \
