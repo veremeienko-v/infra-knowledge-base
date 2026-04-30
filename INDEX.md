@@ -5,9 +5,9 @@
 
 ---
 
-## [🌐 Мережа (Network)](network/mik)
+## 🌐 Мережа (Network)
 
-### MikroTik
+### [MikroTik](network/mikrotik)
 - Базова конфігурація
 - Firewall
 - NAT
