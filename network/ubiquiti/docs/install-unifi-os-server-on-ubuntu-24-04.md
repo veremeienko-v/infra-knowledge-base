@@ -13,6 +13,7 @@ sudo systemctl enable podman
 sudo systemctl start podman
 ```
 ## 4. Завантажуємо скрипт інсталяції Unifi OS Server
+> ℹ️ На момент завантаження, перевірте чи не вийшла нова версія UOS Server
 ```bash
 wget -O unifi-os-server.run https://fw-download.ubnt.com/data/unifi-os-server/1856-linux-x64-5.0.6-33f4990f-6c68-4e72-9d9c-477496c22450.6-x64
 ```
