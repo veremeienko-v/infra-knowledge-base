@@ -14,7 +14,7 @@
 - VPN
 
 ### UniFi
-- Встановлення контролера
+- [Встановлення контролера](network/ubiquiti/docs/install-unifi-os-server-on-ubuntu-24-04.md)
 - Базове налаштування
 - Резервне копіювання
 
