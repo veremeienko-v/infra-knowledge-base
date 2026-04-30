@@ -1,0 +1,20 @@
+NAS-Identifier=OpenVPN
+
+Service-Type=5
+Framed-Protocol=1
+
+NAS-Port-Type=5
+
+OpenVPNConfig=/etc/openvpn/server/server.conf
+
+subnet=255.255.255.0
+
+server
+{
+    acctport=1813
+    authport=1812
+    name=192.168.10.3
+    retry=1
+    wait=1
+    sharedsecret=12345678
+}
