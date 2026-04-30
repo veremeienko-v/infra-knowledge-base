@@ -20,9 +20,13 @@ cd ~/openvpn-ca
 ./easyrsa gen-req server nopass
 ./easyrsa sign-req server server
 ```
-## 4.	Створити конфіг OpenVPN server.conf (приклад в папці Configs OpenVPN)
-Перемістити його в /etc/openvpn/server
+## 4.	Створити конфіг OpenVPN
+⚙️ Приклад конфіга [Server config](../configs/server.conf)
 
+Перемістити його в /etc/openvpn/server
+```bash
+sudo cp /home/vrmnk/server.conf /etc/openvpn/server/
+```
 ## 5.	Преремістити всі сертифікати в /etc/openvpn/server/
 ```bash
 sudo cp /home/vrmnk/openvpn-ca/pki/ca.crt /etc/openvpn/server/
