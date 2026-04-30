@@ -13,7 +13,7 @@
 - NAT
 - VPN
 
-### UniFi
+### [UniFi](network/ubiquiti)
 - [Встановлення контролера](network/ubiquiti/docs/install-unifi-os-server-on-ubuntu-24-04.md)
 - Базове налаштування
 - Резервне копіювання
@@ -22,7 +22,7 @@
 
 ## 🔐 VPN
 
-### OpenVPN
+### [OpenVPN](vpn/openvpn)
 - Встановлення
 - Налаштування клієнтів
 - Безпека
@@ -31,7 +31,7 @@
 
 ## 📊 Моніторинг
 
-### Zabbix (Zabbix)
+### [Zabbix](monitoring/zabbix)
 - Встановлення
 - Агенти
 - Алерти
