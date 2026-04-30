@@ -24,10 +24,12 @@ cd ~/openvpn-ca
 ⚙️ Приклад конфіга [Server config](../configs/server.conf)
 
 Перемістити його в /etc/openvpn/server
+> ⚠️ Змініть юзера наданого в прикладі на свого
 ```bash
 sudo cp /home/vrmnk/server.conf /etc/openvpn/server/
 ```
 ## 5.	Преремістити всі сертифікати в /etc/openvpn/server/
+> ⚠️ Змініть юзера наданого в прикладі на свого
 ```bash
 sudo cp /home/vrmnk/openvpn-ca/pki/ca.crt /etc/openvpn/server/
 sudo cp /home/vrmnk/openvpn-ca/pki/issued/server.crt /etc/openvpn/server/
