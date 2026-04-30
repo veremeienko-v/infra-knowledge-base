@@ -52,8 +52,8 @@ sudo chmod 600 /etc/openvpn/radiusplugin.cnf
 
 ## 10. Зробити їх виконуваними
 ```bash
-chmod +x create_user_vpn.sh
-chmod +x revoke_user_vpn.sh
+chmod +x create-user-vpn.sh
+chmod +x revoke-user-vpn.sh
 ```
 ## 11. Створити папки для клієнтських конфігів
 ```bash
@@ -64,8 +64,8 @@ mkdir -p /etc/openvpn/ccd
 ## 12. Дозволити запуск скрипта без пароля
 ```bash
 sudo visudo
-vrmnk ALL=(ALL) NOPASSWD: /home/vrmnk/create_user_vpn.sh
-vrmnk ALL=(ALL) NOPASSWD: /home/vrmnk/revoke_user.sh
+vrmnk ALL=(ALL) NOPASSWD: /home/vrmnk/create-user-vpn.sh
+vrmnk ALL=(ALL) NOPASSWD: /home/vrmnk/revoke-user-vpn.sh
 ```
 13.	Запустити сервер openvpn та додати до автозапуску
 ```bash
