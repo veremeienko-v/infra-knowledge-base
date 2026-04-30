@@ -5,7 +5,7 @@ sudo apt install openvpn easy-rsa -y
 sudo apt install openvpn-auth-radius
 ```
 ## 2.	Створення PKI (сертифікаційного центру)
-#За потреби можно збільшити терміни дії сертифікатів (опціонально)
+За потреби можно збільшити терміни дії сертифікатів (опціонально)
 ```bash
 sudo nano /openvpn-ca /vars
 set_var EASYRSA_CA_EXPIRE 3660 (10 років - CA)
