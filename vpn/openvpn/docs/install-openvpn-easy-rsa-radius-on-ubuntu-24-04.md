@@ -47,8 +47,8 @@ sudo chmod 600 /etc/openvpn/radiusplugin.cnf
 ```
 ## 9.	Створити скрипти для автоматично створення та відгуку сертифікатів
 ⚙️ Приклад конфігів:
-- [Створення *.ovpn файлу та сертифікатів](../scripts/create-user-vpn.sh)
-- [Віднук *.ovpn файлу та сертифікатів](../scripts/revoke-user-vpn.sh)
+- [Створення файлу *.ovpn та сертифікатів](../scripts/create-user-vpn.sh)
+- [Відгук сертифікатів та видалення файлу *.ovpn](../scripts/revoke-user-vpn.sh)
 
 ## 10. Зробити їх виконуваними
 ```bash
