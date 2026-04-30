@@ -38,7 +38,7 @@ sudo chmod 644 /etc/openvpn/server/*.crt /etc/openvpn/server/dh.pem
 ```
 ## 7.	Створити файл конфігурації радіуса /etc/openvpn/radiusplugin.cnf
 
-⚙️ Приклад конфіга [Radius config](../configs/firewall-base-rules.rsc)
+⚙️ Приклад конфіга [Radius config](../configs/radiusplugin.cnf)
 
 ## 8.	Дати прафа на конфіг
 ```bash
