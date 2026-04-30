@@ -46,7 +46,7 @@
 - Hardening
 - Пакети
 
-### Kernel
+### [Kernel](linux/kernel)
 - Оновлення ядра
 - Rollback
 
