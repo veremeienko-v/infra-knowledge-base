@@ -1,0 +1,25 @@
+port 1194
+proto udp
+dev tun
+
+ca /etc/openvpn/server/ca.crt
+cert /etc/openvpn/server/server.crt
+key /etc/openvpn/server/server.key
+dh /etc/openvpn/server/dh.pem
+
+server 10.10.10.0 255.255.255.0
+#push "route 192.168.10.0 255.255.255.0"
+topology subnet
+
+plugin /usr/lib/openvpn/radiusplugin.so /etc/openvpn/radiusplugin.cnf
+
+username-as-common-name
+client-config-dir /etc/openvpn/ccd
+
+crl-verify /etc/openvpn/crl.pem
+
+keepalive 10 120
+persist-key
+persist-tun
+cipher AES-256-GCM
+verb 3
