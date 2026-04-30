@@ -32,7 +32,7 @@ $newUsers = $current | Where-Object {$_ -notin $old}
 
 foreach ($u in $newUsers) {
     Write-Host "CREATE VPN for $u"
-    ssh $UbuntuHost "sudo /home/vrmnk/create_user_vpn.sh $u"
+    ssh $UbuntuHost "sudo /home/vrmnk/create-user-vpn.sh $u"
 }
 
 # ➖ Видалені користувачі
@@ -40,7 +40,7 @@ $removedUsers = $old | Where-Object {$_ -notin $current}
 
 foreach ($u in $removedUsers) {
     Write-Host "REVOKE VPN for $u"
-    ssh $UbuntuHost "sudo /home/vrmnk/revoke_user_vpn.sh $u"
+    ssh $UbuntuHost "sudo /home/vrmnk/revoke-user-vpn.sh $u"
 }
 
 # Оновити файл стану
