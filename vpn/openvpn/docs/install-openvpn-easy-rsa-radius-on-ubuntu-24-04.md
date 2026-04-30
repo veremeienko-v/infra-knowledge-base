@@ -1,4 +1,4 @@
-## 1.	Встановлення OpenVPN та Easy-RSA, Radius плагіна
+## 1.	Встановлення OpenVPN, Easy-RSA та Radius плагіна
 ```bash
 sudo apt update
 sudo apt install openvpn easy-rsa -y
