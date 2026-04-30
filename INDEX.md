@@ -5,7 +5,7 @@
 
 ---
 
-## 🌐 Мережа (Network)
+## [🌐 Мережа (Network)](network/mik)
 
 ### MikroTik
 - Базова конфігурація
