@@ -68,6 +68,7 @@ mkdir -p /etc/openvpn/clients
 mkdir -p /etc/openvpn/ccd
 ```
 ## 12. Дозволити запуск скрипта без пароля
+> ⚠️ Змініть юзера наданого в прикладі на свого
 ```bash
 sudo visudo
 vrmnk ALL=(ALL) NOPASSWD: /home/vrmnk/create-user-vpn.sh
