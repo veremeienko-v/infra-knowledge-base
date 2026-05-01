@@ -5,33 +5,33 @@
 
 ---
 
-## 🌐 Мережа (Network)
+## 🌐 [Мережа (Network)](network)
 
-### MikroTik
+### [MikroTik](network/mikrotik)
 - Базова конфігурація
 - Firewall
 - NAT
 - VPN
 
-### UniFi
+### [UniFi](network/ubiquiti)
 - Встановлення контролера
 - Базове налаштування
 - Резервне копіювання
 
 ---
 
-## 🔐 VPN
+## 🔐 [VPN](vpn)
 
-### OpenVPN
+### [OpenVPN](vpn/openvpn)
 - Встановлення
 - Налаштування клієнтів
 - Безпека
 
 ---
 
-## 📊 Моніторинг
+## 📊 [Моніторинг](monitoring)
 
-### Zabbix (Zabbix)
+### [Zabbix](monitoring/zabbix)
 - Встановлення
 - Агенти
 - Алерти
@@ -39,20 +39,24 @@
 
 ---
 
-## 🐧 Linux
+## 🐧 [Linux](linux)
 
 ### Ubuntu
 - Встановлення
 - Hardening
 - Пакети
 
-### Kernel
+### [Kernel](linux/kernel)
+- Оновлення ядра
+- Rollback
+
+### [SBC (Single-Board Computer)](linux/sbc)
 - Оновлення ядра
 - Rollback
 
 ---
 
-## 🪟 Windows Server
+## 🪟 [Windows Server](windows)
 
 - Базове налаштування
 - RDP
