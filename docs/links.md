@@ -28,7 +28,7 @@
 - Docs: https://www.zabbix.com/documentation  
 - GitHub: https://github.com/zabbix/zabbix  
 - Templates: https://share.zabbix.com
-- Icons: https://github.com/djvnsk/zabbix.icones/tree/master/zabbix.icons.en/equipment 
+- Icons: https://github.com/djvnsk/zabbix.icones/tree/master/zabbix.icons.en
 
 ---
 
