@@ -3,26 +3,34 @@
 
 ## КРОК 1. Створити додаток (в браузері)
 Йди в 👉 Microsoft Entra ID
+
 📍 Куди клікати:
 App registrations → New registration
+
 📥 Що вводити:
+
 - Name: Zabbix Mail 
-- Supported account types: Single tenant 
+- Supported account types: Single tenant
+
 👉 Натисни Register
 ________________________________________
 📌 Після створення скопіюй:
+
 З головної сторінки:
 - Application (client) ID 
-- Directory (tenant) ID 
+- Directory (tenant) ID
+
 👉 Збережи їх (будуть потрібні)
 ________________________________________
 ## КРОК 2. Дати доступ на відправку пошти
 📍 Куди клікати:
 API permissions → Add a permission
+
 📥 Обрати:
 - Microsoft Graph 
 - Application permissions 
-- знайти → Mail.Send 
+- знайти → Mail.Send
+
 👉 Додати
 ________________________________________
 ❗ ОБОВ’ЯЗКОВО
@@ -34,17 +42,21 @@ ________________________________________
 ## КРОК 3. Створити секрет (пароль для додатку)
 📍 Куди:
 Certificates & secrets → New client secret
+
 📥 Що робити:
 - Description: zabbix 
-- Expires: будь-який термін 
+- Expires: будь-який термін
+ 
 👉 Натисни Create
 ________________________________________
 ❗ ВАЖЛИВО
+
 Скопіюй:
 👉 Value (значення секрета)
 (потім його не покажуть)
 ________________________________________
 ## КРОК 4. Перевірити поштову скриньку
+
 У Microsoft 365 має бути:
 - user: alert@yourdomain.com 
 - з ліцензією Exchange 
