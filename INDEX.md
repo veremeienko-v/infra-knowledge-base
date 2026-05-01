@@ -7,14 +7,14 @@
 
 ## 🌐 Мережа (Network)
 
-### [MikroTik](network/mikrotik)
+### MikroTik
 - Базова конфігурація
 - Firewall
 - NAT
 - VPN
 
-### [UniFi](network/ubiquiti)
-- [Встановлення контролера](network/ubiquiti/docs/install-unifi-os-server-on-ubuntu-24-04.md)
+### UniFi
+- Встановлення контролера
 - Базове налаштування
 - Резервне копіювання
 
@@ -22,7 +22,7 @@
 
 ## 🔐 VPN
 
-### [OpenVPN](vpn/openvpn)
+### OpenVPN
 - Встановлення
 - Налаштування клієнтів
 - Безпека
@@ -31,7 +31,7 @@
 
 ## 📊 Моніторинг
 
-### [Zabbix](monitoring/zabbix)
+### Zabbix (Zabbix)
 - Встановлення
 - Агенти
 - Алерти
@@ -46,7 +46,7 @@
 - Hardening
 - Пакети
 
-### [Kernel](linux/kernel)
+### Kernel
 - Оновлення ядра
 - Rollback
 
