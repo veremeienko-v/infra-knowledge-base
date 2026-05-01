@@ -6,7 +6,8 @@
 - Official Docs: https://help.mikrotik.com  
 - Wiki: https://wiki.mikrotik.com  
 - Forum: https://forum.mikrotik.com  
-- API Docs: https://help.mikrotik.com/docs/display/ROS/API  
+- API Docs: https://help.mikrotik.com/docs/display/ROS/API
+- Youtube MikroTik Ukraine: https://www.youtube.com/@mikrotikukraine  
 
 ### UniFi
 - UI Docs: https://help.ui.com  
@@ -26,7 +27,8 @@
 
 - Docs: https://www.zabbix.com/documentation  
 - GitHub: https://github.com/zabbix/zabbix  
-- Templates: https://share.zabbix.com  
+- Templates: https://share.zabbix.com
+- Icons: https://github.com/djvnsk/zabbix.icones/tree/master/zabbix.icons.en/equipment 
 
 ---
 
