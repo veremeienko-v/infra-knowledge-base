@@ -7,7 +7,7 @@
 - 🌐 Мережеве обладнання (MikroTik, UniFi)
 - 🔐 VPN рішення (OpenVPN, WireGuard)
 - 📊 Системи моніторингу (Zabbix)
-- 🐧 Налаштування та захист Linux серверів
+- 🐧 Налаштування Linux серверів
 - 🪟 Налаштування Windows Server (NPS, Active Directory)
 - ⚙️ Скрипти автоматизації та резервне копіювання
 
@@ -29,19 +29,15 @@
 - linux/ → Linux системи
 - windows/ → Windows Server
 - auth/ → аутентифікація (RADIUS, NPS)
-- directory/ → Active Directory
-- integrations/ → інтеграції сервісів
-- scripts/ → автоматизація
-- configs/ → конфігурації
-- backups/ → резервні копії
 - docs/ → загальна документація
+- cloud/ → хмарні рішення
 
 ---
 
 ## 🚀 Швидкий старт
 
 👉 Перейти до навігації:
-- 📚 [INDEX](INDEX.md)
+- 📚 [Навігація по репозиторію](INDEX.md)
 
 👉 Перейти до корисних ресурсів в інтернеті:
 - 📚 [Useful Links](docs/links.md)  
