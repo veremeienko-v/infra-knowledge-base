@@ -29,7 +29,7 @@ access_token
 👉 Встав (на сервері):
 ```bash
 curl -X POST https://graph.microsoft.com/v1.0/users/alert@yourdomain.com/sendMail \
- -H "Authorization: Bearer ТВОЙ_TOKEN" \
+ -H "Authorization: Bearer ТВІЙ_TOKEN" \
  -H "Content-Type: application/json" \
  -d '{
   "message": {
