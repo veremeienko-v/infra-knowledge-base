@@ -55,6 +55,8 @@ curl -X POST https://graph.microsoft.com/v1.0/users/alert@yourdomain.com/sendMai
 ```bash
 nano /usr/lib/zabbix/alertscripts/send-mail-oauth.sh
 ```
+👉[Скрипт](../scripts/send-mail-oauth.sh)
+
 📌 Дати права:
 ```bash
 chmod +x /usr/lib/zabbix/alertscripts/send-mail-oauth.sh
