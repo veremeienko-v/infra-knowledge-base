@@ -48,7 +48,7 @@ sudo chmod 644 /etc/openvpn/server/*.crt /etc/openvpn/server/dh.pem
 
 ⚙️ Приклад конфіга [Radius config](../configs/radiusplugin.cnf)
 
-## 8.	Дати прафа на конфіг
+## 8.	Дати права на конфіг
 ```bash
 sudo chown root:root /etc/openvpn/radiusplugin.cnf
 sudo chmod 600 /etc/openvpn/radiusplugin.cnf
