@@ -32,6 +32,7 @@ client
 dev tun
 proto udp
 remote 192.168.10.4 1194
+#pull
 resolv-retry infinite
 nobind
 persist-key
